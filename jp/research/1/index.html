@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html lang="jp-JP" itemscope itemtype="http://schema.org/WebPage">
 
-<head><script src="/milab/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=milab/livereload" data-no-instant defer></script>
+<head>
 	<meta charset="utf-8">
 <title>Deepfake検出</title>
 
 
 
-<base href="http://localhost:1313/milab/jp/research/1/">
+<base href="https://cu-milab.github.io/milab/jp/research/1/">
 
 
 
@@ -42,7 +42,7 @@
 
 
 
-<link rel="manifest" href="/milab/jp/manifest.webmanifest">
+<link rel="manifest" href="../../../jp/manifest.webmanifest">
 <meta name="msapplication-TileColor" content="#655e7a">
 <meta name="theme-color" content="#fff">
 
@@ -75,7 +75,7 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/milab/jp/research/1/">
+<meta property="og:url" content="https://cu-milab.github.io/milab/jp/research/1/">
   <meta property="og:site_name" content="機械知能研究室">
   <meta property="og:title" content="Deepfake検出">
   <meta property="og:description" content="自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化">
@@ -205,7 +205,7 @@
         <span class="icon-bar"></span>
         </button>
         
-        <a class="navbar-brand" href="/milab/jp">
+        <a class="navbar-brand" href="../../../jp">
           
 
 
@@ -235,7 +235,7 @@
 
 
 
-<img loading="prelaod" decoding="async" class="img-fluid" width="150" height="312" src="/milab/images/logo_hu_21499de301e0edfc.webp" alt="機械知能研究室" onerror="this.onerror=null;this.src='\/milab\/images\/logo_hu_39a1b058b146154a.png'">
+<img loading="prelaod" decoding="async" class="img-fluid" width="150" height="312" src="../../../milab/images/logo_hu_21499de301e0edfc.webp" alt="機械知能研究室" onerror="this.onerror=null;this.src='\/milab\/images\/logo_hu_39a1b058b146154a.png'">
 
 
 
@@ -254,7 +254,7 @@
           
           <li class="nav-item">
             <a class="nav-link " 
-              href="/milab/jp/">ホーム</a>
+              href="../../../jp/">ホーム</a>
           </li>
           
           
@@ -264,7 +264,7 @@
           
           <li class="nav-item">
             <a class="nav-link " 
-              href="/milab/jp/news/">ニュース</a>
+              href="../../../jp/news/">ニュース</a>
           </li>
           
           
@@ -274,7 +274,7 @@
           
           <li class="nav-item">
             <a class="nav-link " 
-              href="/milab/jp/menber/">メンバー</a>
+              href="../../../jp/menber/">メンバー</a>
           </li>
           
           
@@ -284,7 +284,7 @@
           
           <li class="nav-item">
             <a class="nav-link " 
-              href="/milab/jp/research/">研究内容</a>
+              href="../../../jp/research/">研究内容</a>
           </li>
           
           
@@ -294,7 +294,7 @@
           
           <li class="nav-item">
             <a class="nav-link " 
-              href="/milab/jp/publications/">発表文献</a>
+              href="../../../jp/publications/">発表文献</a>
           </li>
           
           
@@ -304,7 +304,7 @@
           
           <li class="nav-item">
             <a class="nav-link " 
-              href="/milab/jp/contact/">連絡先</a>
+              href="../../../jp/contact/">連絡先</a>
           </li>
           
           
@@ -337,7 +337,7 @@
 	<main>
 		
 
-<section class="page-title bg-2" style="background-image: url('/milab/');">
+<section class="page-title bg-2" style="background-image: url('/');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -358,7 +358,7 @@
     <div class="row">
       <div class="col-md-8">
         
-        <img class="img-responsive w-100" src="/milab/images/research/001/001.png" alt="">
+        <img class="img-responsive w-100" src="../../../images/research/001/001.png" alt="">
         
       </div>
       
@@ -374,13 +374,13 @@
 <p>従来のVision Transformer（ViT）は，画像全体の構造を捉える能力に優れているものの，高周波成分（境界線やノイズなど細部）の抽出が苦手で，Deepfake検出ではCNNより精度が劣る傾向がありました．
 そこで本研究では，画像を周波数成分に分解できるウェーブレット変換（Wavelet Transform）を取り入れたWave-ViTを採用しました．これにより，Deepfake画像に現れやすい高周波の偽造痕跡を効果的に捉えることが可能になります．</p>
 <div align="center"> 
-    <img src="/milab/images/research/001/proposed_method.png" alt="提案手法の流れ" width="600"/> <p><i>提案手法の流れ</i></p> 
+    <img src="../../../milab/images/research/001/proposed_method.png" alt="提案手法の流れ" width="600"/> <p><i>提案手法の流れ</i></p> 
 </div>
 <h3 id="自己教師あり学習simclrの導入">自己教師あり学習（SimCLR）の導入</h3>
 <p>Deepfake画像と自然な画像の微細な違いを学習するため，SimCLRと呼ばれる自己教師あり学習手法を組み込みました．
 この学習では，1つの画像に異なるデータ拡張を加えて「ポジティブペア」を作り，似ていない別の画像は「ネガティブペア」として扱います．これにより，データのラベルを使わずに有用な特徴抽出が可能となり，モデルの判別力を高めています．</p>
 <div align="center"> 
-    <img src="/milab/images/research/001/SimCLR.png" alt="自己教師あり学習" width="400"/> <p><i>提案手法の流れ</i></p> 
+    <img src="../../../milab/images/research/001/SimCLR.png" alt="自己教師あり学習" width="400"/> <p><i>提案手法の流れ</i></p> 
 </div>
 <h3 id="self-blended-imagessbisによる学習データの拡張">Self-Blended Images（SBIs）による学習データの拡張</h3>
 <p>学習用のDeepfake画像として「SBIs（Self-Blended Images）」という手法で生成した疑似的な画像を用いています．これにより，より多様なパターンの偽造痕跡を含む画像でモデルを学習させることが可能になり，汎化性能が向上します．</p>
@@ -421,7 +421,7 @@
 <h3 id="偽造痕跡への注目">偽造痕跡への注目</h3>
 <p>アテンションマップを可視化した結果，提案手法はDeepfake画像の境界線など，偽造の兆候が現れやすい部分に的確に注目していることが確認されました．</p>
 <div align="center"> 
-    <img src="/milab/images/research/001/attention_map.png" alt="自己教師あり学習" width="600"/> <p><i>アテンションマップの可視化例</i></p> 
+    <img src="../../../milab/images/research/001/attention_map.png" alt="自己教師あり学習" width="600"/> <p><i>アテンションマップの可視化例</i></p> 
 </div>
 <h2 id="関連論文">関連論文</h2>
 <p>&ndash; 高瀬 俊希，山内 悠嗣，``自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化”，精密工学会誌，vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja">link</a></p>
@@ -444,17 +444,17 @@
         <div class="footer-menu">
           <ul>
             
-            <li><a href="/milab/jp/about/">ホーム</a></li>
+            <li><a href="../../../jp/about/">ホーム</a></li>
             
-            <li><a href="/milab/jp/news/">ニュース</a></li>
+            <li><a href="../../../jp/news/">ニュース</a></li>
             
-            <li><a href="/milab/jp/menber/">メンバー</a></li>
+            <li><a href="../../../jp/menber/">メンバー</a></li>
             
-            <li><a href="/milab/jp/research/">研究内容</a></li>
+            <li><a href="../../../jp/research/">研究内容</a></li>
             
-            <li><a href="/milab/jp/publications/">発表文献</a></li>
+            <li><a href="../../../jp/publications/">発表文献</a></li>
             
-            <li><a href="/milab/jp/contact/">連絡先</a></li>
+            <li><a href="../../../jp/contact/">連絡先</a></li>
             
           </ul>
         </div>

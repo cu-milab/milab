@@ -10,5 +10,5 @@
   
   
   "display": "standalone",
-  "start_url": "/milab/jp?utm_source=web_app_manifest"
+  "start_url": "/jp?utm_source=web_app_manifest"
 }

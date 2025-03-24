@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:1313/milab/en/sitemap.xml</loc>
+    <loc>https://cu-milab.github.io/milab/en/sitemap.xml</loc>
     
       <lastmod>2021-04-01T00:00:00+01:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/milab/jp/sitemap.xml</loc>
+    <loc>https://cu-milab.github.io/milab/jp/sitemap.xml</loc>
     
       <lastmod>2025-03-23T00:00:00+09:00</lastmod>
     
