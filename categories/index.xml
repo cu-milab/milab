@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Airspace | Creative Agency Hugo Template</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0100</lastBuildDate>
     <atom:link href="https://demo.gethugothemes.com/airspace/examplesite/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Party</title>
+      <link>https://demo.gethugothemes.com/airspace/examplesite/categories/party/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0100</pubDate>
+      <guid>https://demo.gethugothemes.com/airspace/examplesite/categories/party/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Technical Assistance</title>
       <link>https://demo.gethugothemes.com/airspace/examplesite/categories/technical-assistance/</link>

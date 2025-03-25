@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airspace | Creative Agency Hugo Template</title>
+    <link>https://demo.gethugothemes.com/airspace/examplesite/japanese/</link>
+    <description>Recent content on Airspace | Creative Agency Hugo Template</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 23 Mar 2025 00:00:00 -0400</lastBuildDate>
+    <atom:link href="https://demo.gethugothemes.com/airspace/examplesite/japanese/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>https://demo.gethugothemes.com/airspace/examplesite/japanese/publications/</link>
+      <pubDate>Sun, 23 Mar 2025 00:00:00 -0400</pubDate>
+      <guid>https://demo.gethugothemes.com/airspace/examplesite/japanese/publications/</guid>
+      <description>&lt;h2 id=&#34;2025年度&#34;&gt;2025年度&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;学術論文誌&lt;/strong&gt;&lt;br&gt;&#xA;&amp;ndash; 高瀬 俊希，山内 悠嗣，``自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化”，精密工学会誌，vol. 91, no.2, pp.156-162, 2025. &lt;a href=&#34;https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja&#34;&gt;link&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our menbers</title>
+      <link>https://demo.gethugothemes.com/airspace/examplesite/japanese/menber/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 -0400</pubDate>
+      <guid>https://demo.gethugothemes.com/airspace/examplesite/japanese/menber/</guid>
+      <description>&lt;h2 id=&#34;メンバー&#34;&gt;メンバー&lt;/h2&gt;&#xA;&lt;h3 id=&#34;教員&#34;&gt;教員&lt;/h3&gt;&#xA;&lt;p&gt;&amp;ndash; 山内悠嗣&lt;/p&gt;&#xA;&lt;h3 id=&#34;m2&#34;&gt;M2&lt;/h3&gt;&#xA;&lt;p&gt;&amp;ndash;  AAA&lt;br&gt;&#xA;&amp;ndash;  AAA&lt;br&gt;&#xA;&amp;ndash;  AAA&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Our Laboratory</title>
+      <link>https://demo.gethugothemes.com/airspace/examplesite/japanese/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://demo.gethugothemes.com/airspace/examplesite/japanese/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://demo.gethugothemes.com/airspace/examplesite/japanese/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://demo.gethugothemes.com/airspace/examplesite/japanese/contact/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

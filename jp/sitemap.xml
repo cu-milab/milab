@@ -2,40 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cu-milab.github.io/milab/jp/categories/</loc>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/</loc>
+    <lastmod>2025-03-23T00:00:00-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/categories/"
+                href="https://demo.gethugothemes.com/airspace/examplesite/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://demo.gethugothemes.com/airspace/examplesite/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://demo.gethugothemes.com/airspace/examplesite/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://demo.gethugothemes.com/airspace/examplesite/it/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="https://cu-milab.github.io/milab/jp/categories/"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/tags/</loc>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/publications/</loc>
+    <lastmod>2025-03-23T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/categories/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/tags/"
+                href="https://demo.gethugothemes.com/airspace/examplesite/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://demo.gethugothemes.com/airspace/examplesite/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://demo.gethugothemes.com/airspace/examplesite/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://demo.gethugothemes.com/airspace/examplesite/it/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="https://cu-milab.github.io/milab/jp/tags/"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/categories/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/</loc>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/news/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/categories/party/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/"
+                href="https://demo.gethugothemes.com/airspace/examplesite/categories/party/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="jp-JP"
-                href="https://cu-milab.github.io/milab/jp/"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/categories/party/"
                 />
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/tags/party/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://demo.gethugothemes.com/airspace/examplesite/tags/party/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/tags/party/"
+                />
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/tags/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://demo.gethugothemes.com/airspace/examplesite/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://demo.gethugothemes.com/airspace/examplesite/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://demo.gethugothemes.com/airspace/examplesite/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://demo.gethugothemes.com/airspace/examplesite/it/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/tags/"
+                />
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/news/20250321/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/menber/</loc>
+    <lastmod>2024-04-01T00:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://demo.gethugothemes.com/airspace/examplesite/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/about/"
+                />
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://demo.gethugothemes.com/airspace/examplesite/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://demo.gethugothemes.com/airspace/examplesite/jp/contact/"
+                />
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/research/1/</loc>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/airspace/examplesite/jp/research/</loc>
   </url>
 </urlset>
