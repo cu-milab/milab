@@ -92,6 +92,8 @@
   <meta property="og:locale" content="ja_JP">
   <meta property="og:type" content="article">
     <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2024-03-24T00:00:00+09:00">
+    <meta property="article:modified_time" content="2024-03-24T00:00:00+09:00">
 
 
 
@@ -363,7 +365,93 @@
 
 
 
+<section class="portfolio-single-page section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        
+        <img class="img-responsive w-100" src="/milab/images/research/001/001.png" alt="">
+        
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>Client :</span> <strong>Jannie Kelonsky</strong></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <h2 id="概要">概要</h2>
+<p>近年，AIによって顔画像を巧妙に合成・加工するDeepfake技術が急速に進化しており，SNSやメディアなどで悪用される事例も増えています．このような背景から，Deepfake画像を高精度で自動検出する技術の開発が強く求められています．</p>
+<p>本研究では，Deepfake検出における新たなアプローチとして，「Wavelet Vision Transformer（Wave-ViT）」に**自己教師あり学習（Self-Supervised Learning）**を組み合わせる手法を提案し，その有効性を検証しました．</p>
+<h2 id="提案手法">提案手法</h2>
+<h3 id="wavelet-vision-transformerwave-vitの導入">Wavelet Vision Transformer（Wave-ViT）の導入</h3>
+<p>従来のVision Transformer（ViT）は，画像全体の構造を捉える能力に優れているものの，高周波成分（境界線やノイズなど細部）の抽出が苦手で，Deepfake検出ではCNNより精度が劣る傾向がありました．
+そこで本研究では，画像を周波数成分に分解できるウェーブレット変換（Wavelet Transform）を取り入れたWave-ViTを採用しました．これにより，Deepfake画像に現れやすい高周波の偽造痕跡を効果的に捉えることが可能になります．</p>
+<div align="center"> 
+    <img src="/milab/images/research/001/proposed_method.png" alt="提案手法の流れ" width="600"/> <p><i>提案手法の流れ</i></p> 
+</div>
+<h3 id="自己教師あり学習simclrの導入">自己教師あり学習（SimCLR）の導入</h3>
+<p>Deepfake画像と自然な画像の微細な違いを学習するため，SimCLRと呼ばれる自己教師あり学習手法を組み込みました．
+この学習では，1つの画像に異なるデータ拡張を加えて「ポジティブペア」を作り，似ていない別の画像は「ネガティブペア」として扱います．これにより，データのラベルを使わずに有用な特徴抽出が可能となり，モデルの判別力を高めています．</p>
+<div align="center"> 
+    <img src="/milab/images/research/001/SimCLR.png" alt="自己教師あり学習" width="400"/> <p><i>提案手法の流れ</i></p> 
+</div>
+<h3 id="self-blended-imagessbisによる学習データの拡張">Self-Blended Images（SBIs）による学習データの拡張</h3>
+<p>学習用のDeepfake画像として「SBIs（Self-Blended Images）」という手法で生成した疑似的な画像を用いています．これにより，より多様なパターンの偽造痕跡を含む画像でモデルを学習させることが可能になり，汎化性能が向上します．</p>
+<h3 id="評価実験と結果">評価実験と結果</h3>
+<p>FaceForensics++など複数のベンチマークデータセットを用いた比較実験により，提案手法は従来のCNNベースの手法（EfficientNet-B4など）よりも平均AUC（Area Under Curve）で2.44%の精度向上を達成しました．</p>
+<div align="center">
+<table border="1">
+  <thead>
+    <tr>
+      <th>手法</th>
+      <th>平均AUC（%）</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EfficientNet-B4</td>
+      <td>90.95</td>
+    </tr>
+    <tr>
+      <td>ResNet-50</td>
+      <td>88.25</td>
+    </tr>
+    <tr>
+      <td>ViT</td>
+      <td>83.33</td>
+    </tr>
+    <tr>
+      <td>Wave-ViT</td>
+      <td>88.84</td>
+    </tr>
+    <tr>
+      <td>Proposed Method</td>
+      <td>93.39</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3 id="偽造痕跡への注目">偽造痕跡への注目</h3>
+<p>アテンションマップを可視化した結果，提案手法はDeepfake画像の境界線など，偽造の兆候が現れやすい部分に的確に注目していることが確認されました．</p>
+<div align="center"> 
+    <img src="/milab/images/research/001/attention_map.png" alt="自己教師あり学習" width="600"/> <p><i>アテンションマップの可視化例</i></p> 
+</div>
+<h2 id="関連論文">関連論文</h2>
+<p>&ndash; 高瀬 俊希，山内 悠嗣，``自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化”，精密工学会誌，vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja">link</a></p>
 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 	</main>

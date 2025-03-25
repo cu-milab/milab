@@ -59,6 +59,12 @@
     <loc>https://cu-milab.github.io/milab/jp/menber/</loc>
     <lastmod>2024-04-01T00:00:00+09:00</lastmod>
   </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/research/001/</loc>
+    <lastmod>2024-03-24T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/research/</loc>
+    <lastmod>2024-03-24T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://cu-milab.github.io/milab/jp/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -82,9 +88,5 @@
                 hreflang="ja-JP"
                 href="https://cu-milab.github.io/milab/jp/contact/"
                 />
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/research/001/</loc>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/research/</loc>
   </url>
 </urlset>
