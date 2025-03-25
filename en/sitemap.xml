@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://cu-milab.github.io/milab/categories/</loc><xhtml:link rel="alternate" hreflang="jp-JP" href="https://cu-milab.github.io/milab/jp/categories/"/><xhtml:link rel="alternate" hreflang="en-US" href="https://cu-milab.github.io/milab/categories/"/></url><url><loc>https://cu-milab.github.io/milab/tags/</loc><xhtml:link rel="alternate" hreflang="jp-JP" href="https://cu-milab.github.io/milab/jp/tags/"/><xhtml:link rel="alternate" hreflang="en-US" href="https://cu-milab.github.io/milab/tags/"/></url><url><loc>https://cu-milab.github.io/milab/</loc><xhtml:link rel="alternate" hreflang="jp-JP" href="https://cu-milab.github.io/milab/jp/"/><xhtml:link rel="alternate" hreflang="en-US" href="https://cu-milab.github.io/milab/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cu-milab.github.io/milab/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://cu-milab.github.io/milab/jp/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://cu-milab.github.io/milab/categories/"
+                />
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://cu-milab.github.io/milab/jp/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://cu-milab.github.io/milab/tags/"
+                />
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="jp-JP"
+                href="https://cu-milab.github.io/milab/jp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://cu-milab.github.io/milab/"
+                />
+  </url>
+</urlset>
