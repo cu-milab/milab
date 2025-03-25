@@ -1,12 +1,1 @@
-{
-  "name": "機械知能研究室",
-  "short_name": "機械知能研究室",
-  "lang": "en-US",
-  "theme_color": "#655e7a",
-  "background_color": "#fff",
-
-  
-  
-  "display": "standalone",
-  "start_url": "/?utm_source=web_app_manifest"
-}
+{"name":"機械知能研究室","short_name":"機械知能研究室","lang":"en-US","theme_color":"#655e7a","background_color":"#fff","display":"standalone","start_url":"/?utm_source=web_app_manifest"}
