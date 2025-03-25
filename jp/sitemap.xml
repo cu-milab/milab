@@ -2,24 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cu-milab.github.io/milab/jp/</loc>
-    <lastmod>2025-03-23T00:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://cu-milab.github.io/milab/"
-                />
+    <loc>https://cu-milab.github.io/milab/jp/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/"
+                href="https://cu-milab.github.io/milab/ja/categories/"
                 />
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/publications/</loc>
-    <lastmod>2025-03-23T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/categories/</loc>
-    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -27,21 +15,16 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja-JP"
+                hreflang="jp"
                 href="https://cu-milab.github.io/milab/jp/categories/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/news/</loc>
-    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/categories/party/</loc>
-    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/tags/party/</loc>
-    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
-  </url><url>
     <loc>https://cu-milab.github.io/milab/jp/tags/</loc>
-    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja-JP"
+                href="https://cu-milab.github.io/milab/ja/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -49,42 +32,25 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja-JP"
+                hreflang="jp"
                 href="https://cu-milab.github.io/milab/jp/tags/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/news/20250321/</loc>
-    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/menber/</loc>
-    <lastmod>2024-04-01T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/about/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://cu-milab.github.io/milab/about/"
-                />
+    <loc>https://cu-milab.github.io/milab/jp/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/about/"
+                href="https://cu-milab.github.io/milab/ja/"
                 />
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/contact/"
+                href="https://cu-milab.github.io/milab/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/contact/"
+                hreflang="jp"
+                href="https://cu-milab.github.io/milab/jp/"
                 />
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/research/1/</loc>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/research/</loc>
   </url>
 </urlset>
