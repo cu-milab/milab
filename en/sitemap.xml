@@ -2,159 +2,159 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cu-milab.github.io/milab/en/</loc>
+    <loc>http://localhost:1313/milab/en/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/"
+                href="http://localhost:1313/milab/jp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/"
+                href="http://localhost:1313/milab/en/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/categories/</loc>
+    <loc>http://localhost:1313/milab/en/categories/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/categories/"
+                href="http://localhost:1313/milab/jp/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/categories/"
+                href="http://localhost:1313/milab/en/categories/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/how-to/</loc>
+    <loc>http://localhost:1313/milab/en/tags/how-to/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/</loc>
+    <loc>http://localhost:1313/milab/en/blog/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/date-i18n/</loc>
+    <loc>http://localhost:1313/milab/en/blog/date-i18n/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/</loc>
+    <loc>http://localhost:1313/milab/en/tags/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/tags/"
+                href="http://localhost:1313/milab/jp/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/tags/"
+                href="http://localhost:1313/milab/en/tags/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/categories/technical-assistance/</loc>
+    <loc>http://localhost:1313/milab/en/categories/technical-assistance/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/technology/</loc>
+    <loc>http://localhost:1313/milab/en/tags/technology/</loc>
     <lastmod>2021-04-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/faq/</loc>
+    <loc>http://localhost:1313/milab/en/faq/</loc>
     <lastmod>2021-04-01T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/advice/</loc>
+    <loc>http://localhost:1313/milab/en/tags/advice/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/ai/</loc>
+    <loc>http://localhost:1313/milab/en/tags/ai/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/android/</loc>
+    <loc>http://localhost:1313/milab/en/tags/android/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/categories/artificial-intelligence/</loc>
+    <loc>http://localhost:1313/milab/en/categories/artificial-intelligence/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/company/</loc>
+    <loc>http://localhost:1313/milab/en/tags/company/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/categories/company-news/</loc>
+    <loc>http://localhost:1313/milab/en/categories/company-news/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/blog-post-1/</loc>
+    <loc>http://localhost:1313/milab/en/blog/blog-post-1/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/blog-post-2/</loc>
+    <loc>http://localhost:1313/milab/en/blog/blog-post-2/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/blog-post-3/</loc>
+    <loc>http://localhost:1313/milab/en/blog/blog-post-3/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/blog-post-4/</loc>
+    <loc>http://localhost:1313/milab/en/blog/blog-post-4/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/blog-post-5/</loc>
+    <loc>http://localhost:1313/milab/en/blog/blog-post-5/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/blog/blog-post-6/</loc>
+    <loc>http://localhost:1313/milab/en/blog/blog-post-6/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/categories/legacy-support/</loc>
+    <loc>http://localhost:1313/milab/en/categories/legacy-support/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/mechine/</loc>
+    <loc>http://localhost:1313/milab/en/tags/mechine/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/news/</loc>
+    <loc>http://localhost:1313/milab/en/tags/news/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/retro/</loc>
+    <loc>http://localhost:1313/milab/en/tags/retro/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/message_sent/</loc>
+    <loc>http://localhost:1313/milab/en/message_sent/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/about/</loc>
+    <loc>http://localhost:1313/milab/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/about/"
+                href="http://localhost:1313/milab/jp/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/about/"
+                href="http://localhost:1313/milab/en/about/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/author/</loc>
+    <loc>http://localhost:1313/milab/en/author/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/contact/</loc>
+    <loc>http://localhost:1313/milab/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/contact/"
+                href="http://localhost:1313/milab/jp/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/contact/"
+                href="http://localhost:1313/milab/en/contact/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/author/john-doe/</loc>
+    <loc>http://localhost:1313/milab/en/author/john-doe/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/author/mark-dinn/</loc>
+    <loc>http://localhost:1313/milab/en/author/mark-dinn/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/pricing/</loc>
+    <loc>http://localhost:1313/milab/en/pricing/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/</loc>
+    <loc>http://localhost:1313/milab/en/project/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/rio-furniture-1/</loc>
+    <loc>http://localhost:1313/milab/en/project/rio-furniture-1/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/rio-furniture-2/</loc>
+    <loc>http://localhost:1313/milab/en/project/rio-furniture-2/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/rio-furniture-3/</loc>
+    <loc>http://localhost:1313/milab/en/project/rio-furniture-3/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/rio-furniture-4/</loc>
+    <loc>http://localhost:1313/milab/en/project/rio-furniture-4/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/rio-furniture-5/</loc>
+    <loc>http://localhost:1313/milab/en/project/rio-furniture-5/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/project/rio-furniture-6/</loc>
+    <loc>http://localhost:1313/milab/en/project/rio-furniture-6/</loc>
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/service/</loc>
+    <loc>http://localhost:1313/milab/en/service/</loc>
   </url>
 </urlset>
