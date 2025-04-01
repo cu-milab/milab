@@ -387,12 +387,18 @@
           <div class="portfolio-menu">
             <div class="btn-group btn-group-toggle justify-content-center" data-toggle="buttons">
               <label class="btn btn-sm btn-primary active">
-                <input type="radio" name="shuffle-filter" value="all" checked="checked">
+                <input type="radio" name="shuffle-filter" value="all" checked="checked">すべて
               </label>
               <label class="btn btn-sm btn-primary">
                 <input type="radio" name="shuffle-filter" value="deepfake">Deepfake
               </label><label class="btn btn-sm btn-primary">
                 <input type="radio" name="shuffle-filter" value="%E8%87%AA%E5%B7%B1%E6%95%99%E5%B8%AB%E3%81%82%E3%82%8A%E5%AD%A6%E7%BF%92">自己教師あり学習
+              </label><label class="btn btn-sm btn-primary">
+                <input type="radio" name="shuffle-filter" value="%E7%94%BB%E5%83%8F%E5%9C%A7%E7%B8%AE">画像圧縮
+              </label><label class="btn btn-sm btn-primary">
+                <input type="radio" name="shuffle-filter" value="%E7%94%BB%E5%83%8F%E8%AA%8D%E8%AD%98">画像認識
+              </label><label class="btn btn-sm btn-primary">
+                <input type="radio" name="shuffle-filter" value="end-to-end%E5%AD%A6%E7%BF%92">End-to-End学習
               </label>
             </div>
           </div>
@@ -403,6 +409,14 @@
                 <div class="portfolio-content">
                   <a class="h3" href="/milab/jp/research/001/">Deepfake検出</a>
                   <p>自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化</p>
+                </div>
+              </div>
+            </div><div class="col-md-4 portfolio-item shuffle-item" data-groups="[&#34;%E7%94%BB%E5%83%8F%E5%9C%A7%E7%B8%AE&#34;,&#34;%E7%94%BB%E5%83%8F%E8%AA%8D%E8%AD%98&#34;,&#34;end-to-end%E5%AD%A6%E7%BF%92&#34;]">
+              <img src="/milab/images/research/003/figure_1.png" alt="画像の圧縮復元・認識フレームワークの最適化">
+              <div class="portfolio-hover">
+                <div class="portfolio-content">
+                  <a class="h3" href="/milab/jp/research/003/">画像の圧縮復元・認識フレームワークの最適化</a>
+                  <p>画像の圧縮・復元モデルと認識モデルのEnd-to-End学習</p>
                 </div>
               </div>
             </div>
