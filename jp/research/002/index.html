@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html lang="ja-JP" itemscope itemtype="http://schema.org/WebPage">
 
-<head><script src="/milab/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=milab/livereload" data-no-instant defer></script>
+<head>
 	<meta charset="utf-8">
-<title>深層強化学習</title>
+<title>深層強化学習&#43;画像予測モデル</title>
 
 
 
-<base href="http://localhost:1313/milab/jp/research/002/">
+<base href="https://cu-milab.github.io/milab/jp/research/002/">
 
 
 
@@ -62,7 +62,7 @@
 
 
 
-<meta name="twitter:title" content="深層強化学習" />
+<meta name="twitter:title" content="深層強化学習&#43;画像予測モデル" />
 <meta name="twitter:description"
   content="画像予測モデルを導入した価値関数に基づく深層強化学習" />
 
@@ -85,9 +85,9 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/milab/jp/research/002/">
+<meta property="og:url" content="https://cu-milab.github.io/milab/jp/research/002/">
   <meta property="og:site_name" content="機械知能研究室">
-  <meta property="og:title" content="深層強化学習">
+  <meta property="og:title" content="深層強化学習&#43;画像予測モデル">
   <meta property="og:description" content="画像予測モデルを導入した価値関数に基づく深層強化学習">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:type" content="article">
@@ -354,7 +354,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>深層強化学習</h1>
+          <h1>深層強化学習&#43;画像予測モデル</h1>
           <p>画像予測モデルを導入した価値関数に基づく深層強化学習</p>
         </div>
       </div>
@@ -370,7 +370,7 @@
     <div class="row">
       <div class="col-md-8">
         
-        <img class="img-responsive w-100" src="/milab/images/research/002/Environment2.gif" alt="">
+        <img class="img-responsive w-100" src="/milab/images/research/002/method.png" alt="">
         
       </div>
       <div class="col-md-4">
@@ -390,65 +390,32 @@
       <div class="col-md-12">
         <div class="project-content mt-50">
           <h2 id="概要">概要</h2>
-<p>試行錯誤しながらタスクを解くための適切な行動を学習する強化学習が精力的に取り組まれている．強化学習は，囲碁，将棋などのゲームのクリア，ロボットアームによる物体把持動作の獲得などのタスクにおいて有効性が確認されている．強化学習は行動することで得た自身の経験から学習するため，人間が明確な正解を与えることが困難であるタスクを解くことができる可能性を持っている．</p>
 <p>強化学習は観測した現在までの状態における価値を最大化するように学習する．価値とは将来にわたって獲得できる報酬の期待値であるため，先の状態を予測できれば現在の状態のより高い価値を求めることができる．</p>
 <p>そこで，本研究では現在の状態のより高い価値を求めるために，価値を計算する際に先の状態を予測する時系列モデルを導入する．先の状態を予測するために，連続した画像の時系列データから次時刻以降に観測されるであろう未来の画像を予測する深層学習モデルを用いる．先の状態を予測し，現在の状態のより高い価値を求めることで，早期に高い報酬が得られることが期待できる．</p>
 <h2 id="提案手法">提案手法</h2>
-<h3 id="wavelet-vision-transformerwave-vitの導入">Wavelet Vision Transformer（Wave-ViT）の導入</h3>
-<p>従来のVision Transformer（ViT）は，画像全体の構造を捉える能力に優れているものの，高周波成分（境界線やノイズなど細部）の抽出が苦手で，Deepfake検出ではCNNより精度が劣る傾向がありました．
-そこで本研究では，画像を周波数成分に分解できるウェーブレット変換（Wavelet Transform）を取り入れたWave-ViTを採用しました．これにより，Deepfake画像に現れやすい高周波の偽造痕跡を効果的に捉えることが可能になります．</p>
+<h3 id="画像予測モデルを導入した価値関数に基づく強化学習を提案">画像予測モデルを導入した価値関数に基づく強化学習を提案</h3>
+<p>本研究では，画像予測モデルを導入した価値関数に基づく強化学習の手法を提案する．現在の価値と次時刻の価値の差分を正確に求めるため，Qネットワークの損失関数に予測した先の状態の価値を導入する．これにより，エージェントは将来の状態の予測を織り込んだ意思決定が可能となり，単純な即時報酬の最大化ではなく，将来の報酬を見据えた長期的な視点での最適化が促進される．</p>
 <div align="center"> 
     <img src="/milab/images/research/002/proposed_method.png" alt="提案手法の流れ" width="600"/> <p><i>提案手法の流れ</i></p> 
 </div>
-<h3 id="自己教師あり学習simclrの導入">自己教師あり学習（SimCLR）の導入</h3>
-<p>Deepfake画像と自然な画像の微細な違いを学習するため，SimCLRと呼ばれる自己教師あり学習手法を組み込みました．
-この学習では，1つの画像に異なるデータ拡張を加えて「ポジティブペア」を作り，似ていない別の画像は「ネガティブペア」として扱います．これにより，データのラベルを使わずに有用な特徴抽出が可能となり，モデルの判別力を高めています．</p>
+<h3 id="予測画像生成">予測画像生成</h3>
+<p>予測画像生成器にはConvolutional Dynamic Neural Advection(CDNA)を採用する．CDNAは連続した数フレームの画像群と，それらの画像群から観測されるオブジェクトの動きや姿勢などを条件として加え，1フレーム先の予測画像を生成する条件付き予測画像生成器である．</p>
 <div align="center"> 
-    <img src="/milab/images/research/001/SimCLR.png" alt="自己教師あり学習" width="400"/> <p><i>提案手法の流れ</i></p> 
+    <img src="/milab/images/research/002/cdna.png" alt="CDNAの概要" width="600"/> <p><i>CDNAの概要</i></p> 
 </div>
-<h3 id="self-blended-imagessbisによる学習データの拡張">Self-Blended Images（SBIs）による学習データの拡張</h3>
-<p>学習用のDeepfake画像として「SBIs（Self-Blended Images）」という手法で生成した疑似的な画像を用いています．これにより，より多様なパターンの偽造痕跡を含む画像でモデルを学習させることが可能になり，汎化性能が向上します．</p>
-<h3 id="評価実験と結果">評価実験と結果</h3>
-<p>FaceForensics++など複数のベンチマークデータセットを用いた比較実験により，提案手法は従来のCNNベースの手法（EfficientNet-B4など）よりも平均AUC（Area Under Curve）で2.44%の精度向上を達成しました．</p>
-<div align="center">
-<table border="1">
-  <thead>
-    <tr>
-      <th>手法</th>
-      <th>平均AUC（%）</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EfficientNet-B4</td>
-      <td>90.95</td>
-    </tr>
-    <tr>
-      <td>ResNet-50</td>
-      <td>88.25</td>
-    </tr>
-    <tr>
-      <td>ViT</td>
-      <td>83.33</td>
-    </tr>
-    <tr>
-      <td>Wave-ViT</td>
-      <td>88.84</td>
-    </tr>
-    <tr>
-      <td>Proposed Method</td>
-      <td>93.39</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-<h3 id="偽造痕跡への注目">偽造痕跡への注目</h3>
-<p>アテンションマップを可視化した結果，提案手法はDeepfake画像の境界線など，偽造の兆候が現れやすい部分に的確に注目していることが確認されました．</p>
+<h2 id="評価実験と結果">評価実験と結果</h2>
+<h3 id="ライントレースタスク">ライントレースタスク</h3>
+<p>評価実験では，ライントレースタスクを用いて提案手法の性能を検証した，具体的には，エージェントが異なる予測フレーム数を持つ環境でどのように学習し，報酬がどのように変化するかを比較した．</p>
+<p>結果として、適切な予測フレーム数を導入することで，学習の初期段階において高い報酬を獲得できることが確認された．特に，適度な予測フレーム数を設定した場合，学習の安定性が向上し，高い報酬を得るまでの時間が短縮された．一方で，予測フレーム数が過剰に大きい場合，誤差の蓄積が増加し，報酬が低下する傾向が見られた．</p>
 <div align="center"> 
-    <img src="/milab/images/research/001/attention_map.png" alt="自己教師あり学習" width="600"/> <p><i>アテンションマップの可視化例</i></p> 
+    <img src="/milab/images/research/002/line_trace_result_graph.png" alt="ライントレースタスクの各ステップにおける報酬" width="600"/> <p><i>ライントレースタスクの各ステップにおける報酬</i></p> 
+</div>
+<h3 id="カートポールタスク">カートポールタスク</h3>
+<p>カートポールタスクにおいても、同様の評価実験を実施した．エージェントが適切な予測フレーム数を選択することで，報酬の向上が確認された．ただし，ライントレースタスクと比較すると，報酬の向上幅には違いがあり，タスクごとに最適な予測フレーム数が異なることが示唆された．</p>
+<div align="center"> 
+    <img src="/milab/images/research/002/cartpole_reward_graph.png" alt="カートポールタスクの各ステップにおける報酬" width="250"/> <p><i>カートポールタスクの各ステップにおける報酬</i></p> 
 </div>
 <h2 id="関連論文">関連論文</h2>
-<p>&ndash; 高瀬 俊希，山内 悠嗣，``自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化”，精密工学会誌，vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja">link</a></p>
 
         </div>
       </div>

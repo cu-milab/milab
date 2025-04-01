@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>画像の圧縮復元・認識フレームワークの最適化</title>
+<title>画像の圧縮復元・認識</title>
 
 
 
@@ -62,7 +62,7 @@
 
 
 
-<meta name="twitter:title" content="画像の圧縮復元・認識フレームワークの最適化" />
+<meta name="twitter:title" content="画像の圧縮復元・認識" />
 <meta name="twitter:description"
   content="画像の圧縮・復元モデルと認識モデルのEnd-to-End学習" />
 
@@ -87,7 +87,7 @@
 
 <meta property="og:url" content="https://cu-milab.github.io/milab/jp/research/003/">
   <meta property="og:site_name" content="機械知能研究室">
-  <meta property="og:title" content="画像の圧縮復元・認識フレームワークの最適化">
+  <meta property="og:title" content="画像の圧縮復元・認識">
   <meta property="og:description" content="画像の圧縮・復元モデルと認識モデルのEnd-to-End学習">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:type" content="article">
@@ -349,12 +349,12 @@
 	<main>
 		
 
-<section class="page-title bg-2" style="background-image: url('/milab/images/feature-bg.jpg');">
+<section class="page-title bg-2" style="background-image: url('/milab/images/header_nn2.png');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>画像の圧縮復元・認識フレームワークの最適化</h1>
+          <h1>画像の圧縮復元・認識</h1>
           <p>画像の圧縮・復元モデルと認識モデルのEnd-to-End学習</p>
         </div>
       </div>
@@ -370,7 +370,7 @@
     <div class="row">
       <div class="col-md-8">
         
-        <img class="img-responsive w-100" src="/milab/images/research/003/figure_1.png" alt="">
+        <img class="img-responsive w-100" src="/milab/images/research/003/figure_5.png" alt="">
         
       </div>
       <div class="col-md-4">
@@ -401,7 +401,7 @@
 フロントエンドデバイス側でエンコーダにより圧縮した情報を送信することで高速かつ低遅延なデータ通信を実現する．
 圧縮された情報はサーバー側でデコーダにより画像として復元後，深層学習モデルを用いた画像認識を行う．</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_1.png" alt="提案するフレームワーク" width="600"/> <p><i>提案するフレームワーク</i></p> 
+    <img src="/milab/images/research/003/figure_5.png" alt="提案するフレームワーク" width="500"/> <p><i>提案するフレームワーク</i></p> 
 </div>
 <h3 id="画像の圧縮復元モデル">画像の圧縮復元モデル</h3>
 <p>画像の圧縮復元モデルには，リカレントニューラルネットワーク(RNN)ベースの再帰型オートエンコーダを採用した．
@@ -409,7 +409,7 @@
 この処理を再帰的に繰り返し，得られる複数の復元画像を合成し最終的な出力画像とする．
 繰り返す回数を制御することで，出力画像の画像品質を制御可能となっている．</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_2.png" alt="再帰型オートエンコーダの概要" width="400"/> <p><i>再帰型オートエンコーダの概要</i></p> 
+    <img src="/milab/images/research/003/figure_2.png" alt="再帰型オートエンコーダの概要" width="500"/> <p><i>再帰型オートエンコーダの概要</i></p> 
 </div>
 <h3 id="画像の圧縮復元モデルと認識モデルのend-to-end学習">画像の圧縮復元モデルと認識モデルのEnd-to-End学習</h3>
 <p>画像の圧縮復元と認識モデルを結合しEnd-to-Endに学習する．
@@ -426,7 +426,7 @@
 <h3 id="圧縮復元画像">圧縮復元画像</h3>
 <p>従来手法と提案手法の圧縮復元画像を比較した結果，提案手法はノイズの発生を抑制した画像を得ることができました．</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_4.png" alt="圧縮復元画像の例" width="600"/> <p><i>圧縮復元画像の例</i></p> 
+    <img src="/milab/images/research/003/figure_4.png" alt="圧縮復元画像の例" width="400"/> <p><i>圧縮復元画像の例</i></p> 
 </div>
 <h2 id="関連論文">関連論文</h2>
 <!-- -- 高瀬 俊希，山内 悠嗣，``自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化”，精密工学会誌，vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja">link</a> -->
