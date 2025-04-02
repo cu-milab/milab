@@ -6,8 +6,15 @@
     <description>Recent content in Our Research on 機械知能研究室</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://cu-milab.github.io/milab/jp/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>変形ARマーカの位置・姿勢推定</title>
+      <link>https://cu-milab.github.io/milab/jp/research/004/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0900</pubDate>
+      <guid>https://cu-milab.github.io/milab/jp/research/004/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;近年，2次元コードが普及し，キャッシュレス決済やロボットの自己位置推定など様々な用途で利用されている．&#xA;しかし，2次元コードは変形すると認識や位置・姿勢推定が難化する問題がある．&lt;/p&gt;&#xA;&lt;p&gt;このような背景から，変形したARマーカの高速かつ高精度な3次元位置・姿勢推定法を提案する．&#xA;本研究では，従来手法から&amp;quot;物体検出器の変更&amp;quot;，&amp;ldquo;Augmented Autoencoder(AAE)の拡張&amp;rdquo;，&amp;ldquo;回帰の導入&amp;rdquo;，&amp;ldquo;2つのモデルの交互最適化&amp;quot;により高速化と高精度化を実現した．&#xA;また，組み込みボードで実用性の検証を行った．&lt;/p&gt;&#xA;&lt;h2 id=&#34;提案手法&#34;&gt;提案手法&lt;/h2&gt;&#xA;&lt;h3 id=&#34;変形arマーカの位置姿勢推定の流れ&#34;&gt;変形ARマーカの位置・姿勢推定の流れ&lt;/h3&gt;&#xA;&lt;p&gt;提案手法は以下の流れで位置・姿勢推定を行う．&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Deepfake検出</title>
       <link>https://cu-milab.github.io/milab/jp/research/001/</link>
