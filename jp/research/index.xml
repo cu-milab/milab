@@ -23,18 +23,18 @@
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;近年，AIによって顔画像を巧妙に合成・加工するDeepfake技術が急速に進化しており，SNSやメディアなどで悪用される事例も増えています．このような背景から，Deepfake画像を高精度で自動検出する技術の開発が強く求められています．&lt;/p&gt;&#xA;&lt;p&gt;本研究では，Deepfake検出における新たなアプローチとして，「Wavelet Vision Transformer（Wave-ViT）」に**自己教師あり学習（Self-Supervised Learning）**を組み合わせる手法を提案し，その有効性を検証しました．&lt;/p&gt;&#xA;&lt;h2 id=&#34;提案手法&#34;&gt;提案手法&lt;/h2&gt;&#xA;&lt;h3 id=&#34;wavelet-vision-transformerwave-vitの導入&#34;&gt;Wavelet Vision Transformer（Wave-ViT）の導入&lt;/h3&gt;&#xA;&lt;p&gt;従来のVision Transformer（ViT）は，画像全体の構造を捉える能力に優れているものの，高周波成分（境界線やノイズなど細部）の抽出が苦手で，Deepfake検出ではCNNより精度が劣る傾向がありました．&#xA;そこで本研究では，画像を周波数成分に分解できるウェーブレット変換（Wavelet Transform）を取り入れたWave-ViTを採用しました．これにより，Deepfake画像に現れやすい高周波の偽造痕跡を効果的に捉えることが可能になります．&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Image Compression, Restoration, and Recognition</title>
-      <link>https://cu-milab.github.io/milab/jp/research/003/</link>
-      <pubDate>Sun, 24 Mar 2024 00:00:00 +0900</pubDate>
-      <guid>https://cu-milab.github.io/milab/jp/research/003/</guid>
-      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Edge computing-based image recognition systems face the challenge of increased network load as communication volume grows, leading to reduced network speeds.&#xA;While an approach using compressed and restored images for recognition has been proposed to reduce communication volume, it has been reported that the recognition accuracy decreases compared to using uncompressed images.&#xA;In this study, we propose a framework for end-to-end learning of image compression-restoration and recognition models.&#xA;By jointly training two different models in an end-to-end manner, our proposed method prevents the loss of essential information during image compression and restoration, enabling high-accuracy image recognition.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>深層強化学習&#43;画像予測モデル</title>
       <link>https://cu-milab.github.io/milab/jp/research/002/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0900</pubDate>
       <guid>https://cu-milab.github.io/milab/jp/research/002/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;強化学習は観測した現在までの状態における価値を最大化するように学習する．価値とは将来にわたって獲得できる報酬の期待値であるため，先の状態を予測できれば現在の状態のより高い価値を求めることができる．&lt;/p&gt;&#xA;&lt;p&gt;そこで，本研究では現在の状態のより高い価値を求めるために，価値を計算する際に先の状態を予測する時系列モデルを導入する．先の状態を予測するために，連続した画像の時系列データから次時刻以降に観測されるであろう未来の画像を予測する深層学習モデルを用いる．先の状態を予測し，現在の状態のより高い価値を求めることで，早期に高い報酬が得られることが期待できる．&lt;/p&gt;&#xA;&lt;h2 id=&#34;提案手法&#34;&gt;提案手法&lt;/h2&gt;&#xA;&lt;h3 id=&#34;画像予測モデルを導入した価値関数に基づく強化学習を提案&#34;&gt;画像予測モデルを導入した価値関数に基づく強化学習を提案&lt;/h3&gt;&#xA;&lt;p&gt;本研究では，画像予測モデルを導入した価値関数に基づく強化学習の手法を提案する．現在の価値と次時刻の価値の差分を正確に求めるため，Qネットワークの損失関数に予測した先の状態の価値を導入する．これにより，エージェントは将来の状態の予測を織り込んだ意思決定が可能となり，単純な即時報酬の最大化ではなく，将来の報酬を見据えた長期的な視点での最適化が促進される．&lt;/p&gt;&#xA;&lt;div align=&#34;center&#34;&gt; &#xD;&#xA;    &lt;img src=&#34;https://cu-milab.github.io/milab/images/research/002/proposed_method.png&#34; alt=&#34;提案手法の流れ&#34; width=&#34;600&#34;/&gt; &lt;p&gt;&lt;i&gt;提案手法の流れ&lt;/i&gt;&lt;/p&gt; &#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h3 id=&#34;予測画像生成&#34;&gt;予測画像生成&lt;/h3&gt;&#xA;&lt;p&gt;予測画像生成器にはConvolutional Dynamic Neural Advection(CDNA)を採用する．CDNAは連続した数フレームの画像群と，それらの画像群から観測されるオブジェクトの動きや姿勢などを条件として加え，1フレーム先の予測画像を生成する条件付き予測画像生成器である．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>画像の圧縮復元・認識</title>
+      <link>https://cu-milab.github.io/milab/jp/research/003/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>https://cu-milab.github.io/milab/jp/research/003/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;&#xA;&lt;p&gt;エッジコンピューティングを活用した画像認識システムは，通信量が増加するとネットワークの負担が大きくなるため通信速度が低下する問題が発生する．&#xA;通信量削減のために圧縮・復元した画像を認識するアプローチが提案されたが，未圧縮の画像を用いて認識する場合と比べて認識精度が低下することが報告されている．&#xA;そこで，本稿では画像を圧縮・復元するモデルと認識するモデルを End-to-End で学習するフレームワークを提案する．&#xA;提案手法は，異なる 2 つのモデルを End-to-End で学習することで，画像を圧縮・復元した際に認識に有効な情報の欠落を防ぐことが可能となり，&#xA;高精度な画像認識の実現が期待できる．&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
