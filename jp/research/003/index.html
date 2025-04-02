@@ -5,7 +5,7 @@
 
 <head>
 	<meta charset="utf-8">
-<title>画像の圧縮復元・認識</title>
+<title>Image Compression, Restoration, and Recognition</title>
 
 
 
@@ -15,9 +15,16 @@
 
 
 
+<link rel="alternate" hreflang="jp" href="https://cu-milab.github.io/jp/milab/jp/research/003/">
+
+<link rel="alternate" hreflang="en" href="https://cu-milab.github.io/jp/milab/en/research/003/">
+
+<link rel="alternate" hreflang="x-default" href="https://cu-milab.github.io/jp/milab/jp/research/003/">
+
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<meta name="description" content="画像の圧縮・復元モデルと認識モデルのEnd-to-End学習">
+<meta name="description" content="End-to-End Learning of Image Compression-Restoration and Recognition Models">
 
 <meta name="author" content="MILab">
 <meta name="generator" content="Hugo 0.145.0">
@@ -62,9 +69,9 @@
 
 
 
-<meta name="twitter:title" content="画像の圧縮復元・認識" />
+<meta name="twitter:title" content="Image Compression, Restoration, and Recognition" />
 <meta name="twitter:description"
-  content="画像の圧縮・復元モデルと認識モデルのEnd-to-End学習" />
+  content="End-to-End Learning of Image Compression-Restoration and Recognition Models" />
 
 
 
@@ -87,8 +94,8 @@
 
 <meta property="og:url" content="https://cu-milab.github.io/milab/jp/research/003/">
   <meta property="og:site_name" content="機械知能研究室">
-  <meta property="og:title" content="画像の圧縮復元・認識">
-  <meta property="og:description" content="画像の圧縮・復元モデルと認識モデルのEnd-to-End学習">
+  <meta property="og:title" content="Image Compression, Restoration, and Recognition">
+  <meta property="og:description" content="End-to-End Learning of Image Compression-Restoration and Recognition Models">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:type" content="article">
     <meta property="article:section" content="research">
@@ -323,6 +330,37 @@
           <li>
             
             
+            <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+              
+              
+              
+              
+              
+              
+              
+              
+              <option id="jp" value="/milab/jp/research/003/" selected>Japanese
+              </option>
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              <option id="en" value="/milab/en/research/003/">English</option>
+              
+              
+              
+              
+            </select>
+            
           </li>
         </ul>
       </div>
@@ -354,8 +392,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>画像の圧縮復元・認識</h1>
-          <p>画像の圧縮・復元モデルと認識モデルのEnd-to-End学習</p>
+          <h1>Image Compression, Restoration, and Recognition</h1>
+          <p>End-to-End Learning of Image Compression-Restoration and Recognition Models</p>
         </div>
       </div>
     </div>
@@ -378,9 +416,9 @@
           <h4>Project Details</h4>
           <ul>
             
-            <li><span>Start :</span> <strong>2022.4</strong></li>
+            <li><span>Start :</span> <strong>April 2022</strong></li>
             
-            <li><span>Collaborator :</span> <strong>柴田蓮</strong></li>
+            <li><span>Collaborator :</span> <strong>Ren Shibata</strong></li>
             
           </ul>
         </div>
@@ -389,47 +427,47 @@
     <div class="row">
       <div class="col-md-12">
         <div class="project-content mt-50">
-          <h2 id="概要">概要</h2>
-<p>エッジコンピューティングを活用した画像認識システムは，通信量が増加するとネットワークの負担が大きくなるため通信速度が低下する問題が発生する．
-通信量削減のために圧縮・復元した画像を認識するアプローチが提案されたが，未圧縮の画像を用いて認識する場合と比べて認識精度が低下することが報告されている．
-そこで，本稿では画像を圧縮・復元するモデルと認識するモデルを End-to-End で学習するフレームワークを提案する．
-提案手法は，異なる 2 つのモデルを End-to-End で学習することで，画像を圧縮・復元した際に認識に有効な情報の欠落を防ぐことが可能となり，
-高精度な画像認識の実現が期待できる．</p>
-<h2 id="提案手法">提案手法</h2>
-<h3 id="画像の圧縮復元認識フレームワークの提案">画像の圧縮復元・認識フレームワークの提案</h3>
-<p>本研究では画像の圧縮復元モデルと認識モデルを結合したフレームワークを提案する．
-フロントエンドデバイス側でエンコーダにより圧縮した情報を送信することで高速かつ低遅延なデータ通信を実現する．
-圧縮された情報はサーバー側でデコーダにより画像として復元後，深層学習モデルを用いた画像認識を行う．</p>
+          <h2 id="overview">Overview</h2>
+<p>Edge computing-based image recognition systems face the challenge of increased network load as communication volume grows, leading to reduced network speeds.
+While an approach using compressed and restored images for recognition has been proposed to reduce communication volume, it has been reported that the recognition accuracy decreases compared to using uncompressed images.
+In this study, we propose a framework for end-to-end learning of image compression-restoration and recognition models.
+By jointly training two different models in an end-to-end manner, our proposed method prevents the loss of essential information during image compression and restoration, enabling high-accuracy image recognition.</p>
+<h2 id="proposed-method">Proposed Method</h2>
+<h3 id="proposal-of-image-compression-restoration-and-recognition-framework">Proposal of Image Compression-Restoration and Recognition Framework</h3>
+<p>This study proposes a framework that integrates an image compression-restoration model with a recognition model.
+By transmitting compressed information encoded on the frontend device, the system achieves fast and low-latency data communication.
+The compressed data is then decoded on the server-side and subsequently recognized using a deep learning model.</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_5.png" alt="提案するフレームワーク" width="500"/> <p><i>提案するフレームワーク</i></p> 
+    <img src="/milab/images/research/003/figure_5.png" alt="Proposed Framework" width="500"/> <p><i>Proposed Framework</i></p> 
 </div>
-<h3 id="画像の圧縮復元モデル">画像の圧縮復元モデル</h3>
-<p>画像の圧縮復元モデルには，リカレントニューラルネットワーク(RNN)ベースの再帰型オートエンコーダを採用した．
-1度の処理により得られた復元画像と入力画像の差分画像を出力し，再びオートエンコーダに入力する．
-この処理を再帰的に繰り返し，得られる複数の復元画像を合成し最終的な出力画像とする．
-繰り返す回数を制御することで，出力画像の画像品質を制御可能となっている．</p>
+<h3 id="image-compression-restoration-model">Image Compression-Restoration Model</h3>
+<p>The image compression-restoration model adopts a recurrent neural network (RNN)-based recursive autoencoder.
+The model first outputs the difference between the restored image and the input image in a single step, which is then re-input to the autoencoder.
+This process is repeated recursively, and the multiple restored images obtained are combined to produce the final output.
+By controlling the number of iterations, the quality of the output image can be adjusted.</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_2.png" alt="再帰型オートエンコーダの概要" width="500"/> <p><i>再帰型オートエンコーダの概要</i></p> 
+    <img src="/milab/images/research/003/figure_2.png" alt="Overview of Recursive Autoencoder" width="500"/> <p><i>Overview of Recursive Autoencoder</i></p> 
 </div>
-<h3 id="画像の圧縮復元モデルと認識モデルのend-to-end学習">画像の圧縮復元モデルと認識モデルのEnd-to-End学習</h3>
-<p>画像の圧縮復元と認識モデルを結合しEnd-to-Endに学習する．
-圧縮復元モデルは認識処理に有効な情報を優先した情報圧縮や認識を妨げるノイズの発生を抑制した圧縮復元処理が可能となる．
-認識モデルは圧縮復元モデルから出力される画像に基づく高精度な認識が可能となる．</p>
-<h3 id="評価実験と結果">評価実験と結果</h3>
-<p>ImageNet-100を用いた画像分類タスクにより性能評価を行った．
-圧縮復元モデルと認識モデルを個別に最適化後，結合し1つのフレームワークと比較を行い，
-提案手法は2.3～8.2%優れた認識精度を達成しました．
-未圧縮画像と比較し，最大で98.8%のデータ量の圧縮を達成しました．</p>
+<h3 id="end-to-end-learning-of-compression-restoration-and-recognition-models">End-to-End Learning of Compression-Restoration and Recognition Models</h3>
+<p>The compression-restoration and recognition models are trained in an end-to-end manner.
+The compression-restoration model prioritizes compressing information essential for recognition while suppressing noise that hinders recognition.
+This enables the recognition model to achieve high-accuracy recognition based on images output from the compression-restoration model.</p>
+<h3 id="evaluation-experiments-and-results">Evaluation Experiments and Results</h3>
+<p>We evaluated performance using an image classification task with ImageNet-100.
+After individually optimizing the compression-restoration and recognition models, we combined them into a single framework and compared them.
+The proposed method achieved recognition accuracy improvements of 2.3–8.2% compared to separate optimizations.
+Additionally, it achieved up to 98.8% compression of data volume compared to uncompressed images.</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_3.png" alt="画像認識精度" width="400"/> <p><i>画像認識精度</i></p> 
+    <img src="/milab/images/research/003/figure_3.png" alt="Image Recognition Accuracy" width="400"/> <p><i>Image Recognition Accuracy</i></p> 
 </div>
-<h3 id="圧縮復元画像">圧縮復元画像</h3>
-<p>従来手法と提案手法の圧縮復元画像を比較した結果，提案手法はノイズの発生を抑制した画像を得ることができました．</p>
+<h3 id="compressed-restored-images">Compressed-Restored Images</h3>
+<p>A comparison of compressed-restored images between conventional and proposed methods showed that the proposed method effectively suppressed noise.</p>
 <div align="center"> 
-    <img src="/milab/images/research/003/figure_4.png" alt="圧縮復元画像の例" width="400"/> <p><i>圧縮復元画像の例</i></p> 
+    <img src="/milab/images/research/003/figure_4.png" alt="Examples of Compressed-Restored Images" width="400"/> <p><i>Examples of Compressed-Restored Images</i></p> 
 </div>
-<h2 id="関連論文">関連論文</h2>
-<!-- -- 高瀬 俊希，山内 悠嗣，``自己教師あり学習を導入したWavelet Vision TransformerによるDeepfake検出の高精度化”，精密工学会誌，vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja">link</a> -->
+<h2 id="related-papers">Related Papers</h2>
+<!-- -- T. Takase, Y. Yamauchi, "High-Accuracy Deepfake Detection Using Self-Supervised Learning and Wavelet Vision Transformer," Journal of the Japan Society for Precision Engineering, vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/ja">link</a> -->
+
         </div>
       </div>
     </div>
