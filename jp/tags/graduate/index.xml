@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Graduate on 機械知能研究室</title>
-    <link>https://cu-milab.github.io/milab/jp/tags/graduate/</link>
+    <link>http://localhost:1313/milab/jp/tags/graduate/</link>
     <description>Recent content in Graduate on 機械知能研究室</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0100</lastBuildDate>
-    <atom:link href="https://cu-milab.github.io/milab/jp/tags/graduate/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/milab/jp/tags/graduate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>学部４年生が卒業を迎えました</title>
-      <link>https://cu-milab.github.io/milab/jp/news/20250404/</link>
+      <link>http://localhost:1313/milab/jp/news/20250404/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0100</pubDate>
-      <guid>https://cu-milab.github.io/milab/jp/news/20250404/</guid>
+      <guid>http://localhost:1313/milab/jp/news/20250404/</guid>
       <description>&lt;p&gt;学部4年生9人が卒業式に参加しました．&#xA;うち４人は大学院生として，５人は社会人としての道を歩みます．&#xA;それぞれの環境で，研究室で培った経験を活かし活躍することを期待しています．&lt;/p&gt;</description>
     </item>
   </channel>
