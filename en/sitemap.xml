@@ -2,156 +2,156 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://cu-milab.github.io/milab/en/</loc>
+    <loc>http://localhost:1313/milab/en/</loc>
     <lastmod>2025-04-01T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/"
+                href="http://localhost:1313/milab/jp/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/"
+                href="http://localhost:1313/milab/en/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/menber/</loc>
+    <loc>http://localhost:1313/milab/en/menber/</loc>
     <lastmod>2025-04-01T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/menber/"
+                href="http://localhost:1313/milab/jp/menber/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/menber/"
+                href="http://localhost:1313/milab/en/menber/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/publications/</loc>
+    <loc>http://localhost:1313/milab/en/publications/</loc>
     <lastmod>2025-03-23T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/publications/"
+                href="http://localhost:1313/milab/jp/publications/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/publications/"
+                href="http://localhost:1313/milab/en/publications/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/research/</loc>
+    <loc>http://localhost:1313/milab/en/research/</loc>
     <lastmod>2024-04-02T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/research/"
+                href="http://localhost:1313/milab/jp/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/research/"
+                href="http://localhost:1313/milab/en/research/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/research/004/</loc>
+    <loc>http://localhost:1313/milab/en/research/004/</loc>
     <lastmod>2024-04-02T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/research/004/"
+                href="http://localhost:1313/milab/jp/research/004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/research/004/"
+                href="http://localhost:1313/milab/en/research/004/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/research/002/</loc>
+    <loc>http://localhost:1313/milab/en/research/002/</loc>
     <lastmod>2024-03-24T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/research/002/"
+                href="http://localhost:1313/milab/jp/research/002/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/research/002/"
+                href="http://localhost:1313/milab/en/research/002/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/research/001/</loc>
+    <loc>http://localhost:1313/milab/en/research/001/</loc>
     <lastmod>2024-03-24T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/research/001/"
+                href="http://localhost:1313/milab/jp/research/001/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/research/001/"
+                href="http://localhost:1313/milab/en/research/001/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/research/003/</loc>
+    <loc>http://localhost:1313/milab/en/research/003/</loc>
     <lastmod>2024-03-24T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/research/003/"
+                href="http://localhost:1313/milab/jp/research/003/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/research/003/"
+                href="http://localhost:1313/milab/en/research/003/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/about/</loc>
+    <loc>http://localhost:1313/milab/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/about/"
+                href="http://localhost:1313/milab/jp/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/about/"
+                href="http://localhost:1313/milab/en/about/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/categories/</loc>
+    <loc>http://localhost:1313/milab/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/categories/"
+                href="http://localhost:1313/milab/jp/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/categories/"
+                href="http://localhost:1313/milab/en/categories/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/contact/</loc>
+    <loc>http://localhost:1313/milab/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/contact/"
+                href="http://localhost:1313/milab/jp/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/contact/"
+                href="http://localhost:1313/milab/en/contact/"
                 />
   </url><url>
-    <loc>https://cu-milab.github.io/milab/en/tags/</loc>
+    <loc>http://localhost:1313/milab/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja-JP"
-                href="https://cu-milab.github.io/milab/jp/tags/"
+                href="http://localhost:1313/milab/jp/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://cu-milab.github.io/milab/en/tags/"
+                href="http://localhost:1313/milab/en/tags/"
                 />
   </url>
 </urlset>
