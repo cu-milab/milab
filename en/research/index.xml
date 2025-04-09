@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Our Research on 機械知能研究室</title>
-    <link>http://localhost:1313/milab/en/research/</link>
+    <link>https://cu-milab.github.io/milab/en/research/</link>
     <description>Recent content in Our Research on 機械知能研究室</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/milab/en/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cu-milab.github.io/milab/en/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pose Estimation of Deformed AR Markers</title>
-      <link>http://localhost:1313/milab/en/research/004/</link>
+      <link>https://cu-milab.github.io/milab/en/research/004/</link>
       <pubDate>Tue, 02 Apr 2024 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/milab/en/research/004/</guid>
+      <guid>https://cu-milab.github.io/milab/en/research/004/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In recent years, 2D codes have become widely used for various applications such as cashless payments and robot localization.&lt;br&gt;&#xA;However, recognition and pose estimation become challenging when these codes are deformed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deep Reinforcement Learning &#43; Image Prediction Model</title>
-      <link>http://localhost:1313/milab/en/research/002/</link>
+      <link>https://cu-milab.github.io/milab/en/research/002/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/milab/en/research/002/</guid>
+      <guid>https://cu-milab.github.io/milab/en/research/002/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Reinforcement learning aims to maximize the value of the observed state up to the present. Since value represents the expected reward that can be obtained in the future, predicting future states enables a more accurate estimation of the current state&amp;rsquo;s value.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deepfake Detection</title>
-      <link>http://localhost:1313/milab/en/research/001/</link>
+      <link>https://cu-milab.github.io/milab/en/research/001/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/milab/en/research/001/</guid>
+      <guid>https://cu-milab.github.io/milab/en/research/001/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In recent years, Deepfake technology, which allows AI to skillfully synthesize and manipulate facial images, has been evolving rapidly. Cases of misuse on social media and other media platforms are also increasing. Given this background, there is a strong demand for developing technology that can automatically detect Deepfake images with high accuracy.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Image Compression, Restoration, and Recognition</title>
-      <link>http://localhost:1313/milab/en/research/003/</link>
+      <link>https://cu-milab.github.io/milab/en/research/003/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/milab/en/research/003/</guid>
+      <guid>https://cu-milab.github.io/milab/en/research/003/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Edge computing-based image recognition systems face the challenge of increased network load as communication volume grows, leading to reduced network speeds.&#xA;While an approach using compressed and restored images for recognition has been proposed to reduce communication volume, it has been reported that the recognition accuracy decreases compared to using uncompressed images.&#xA;In this study, we propose a framework for end-to-end learning of image compression-restoration and recognition models.&#xA;By jointly training two different models in an end-to-end manner, our proposed method prevents the loss of essential information during image compression and restoration, enabling high-accuracy image recognition.&lt;/p&gt;</description>
     </item>
   </channel>
