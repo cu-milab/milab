@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IEEE on 機械知能研究室</title>
+    <link>http://localhost:1313/milab/jp/tags/ieee/</link>
+    <description>Recent content in IEEE on 機械知能研究室</description>
+    <generator>Hugo</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/milab/jp/tags/ieee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IEEE Accessに掲載</title>
+      <link>http://localhost:1313/milab/jp/news/20250502/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/milab/jp/news/20250502/</guid>
+      <description>&lt;p&gt;本研究室M2の&lt;strong&gt;柴田君&lt;/strong&gt;の研究成果が，&lt;strong&gt;IEEEの国際ジャーナル「IEEE Access」に掲載&lt;/strong&gt;されました．&#xA;本論文では，&lt;strong&gt;画像の圧縮・復元と認識モデルをEnd-to-Endで統合&lt;/strong&gt;し，エッジデバイスにおける通信量の削減と認識精度の向上を両立する手法を提案しています．再帰型オートエンコーダを活用し，情報損失を抑えた高効率な画像復元と高精度な画像認識を実現しました．&#xA;ImageNet-100を用いた実験では，&lt;strong&gt;最大98.8%の通信量削減&lt;/strong&gt;と&lt;strong&gt;2.3～8.2%の認識精度向上&lt;/strong&gt;を達成しています．&#xA;本研究室としては，&lt;strong&gt;初の国際ジャーナル掲載&lt;/strong&gt;となり，これまでの取り組みが国際的に認められたことを大変喜ばしく思います．今後も質の高い研究成果を国内外に発信してまいります．&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
