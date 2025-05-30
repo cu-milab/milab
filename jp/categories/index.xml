@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on 機械知能研究室</title>
-    <link>http://localhost:1313/milab/jp/categories/</link>
+    <link>https://cu-milab.github.io/milab/jp/categories/</link>
     <description>Recent content in Categories on 機械知能研究室</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
     <lastBuildDate>Thu, 29 May 2025 00:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/milab/jp/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cu-milab.github.io/milab/jp/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Conference</title>
-      <link>http://localhost:1313/milab/jp/categories/academic-conference/</link>
+      <link>https://cu-milab.github.io/milab/jp/categories/academic-conference/</link>
       <pubDate>Thu, 29 May 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/categories/academic-conference/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/categories/academic-conference/</guid>
       <description></description>
     </item>
     <item>
       <title>Academic Journal</title>
-      <link>http://localhost:1313/milab/jp/categories/academic-journal/</link>
+      <link>https://cu-milab.github.io/milab/jp/categories/academic-journal/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/categories/academic-journal/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/categories/academic-journal/</guid>
       <description></description>
     </item>
     <item>
       <title>Party</title>
-      <link>http://localhost:1313/milab/jp/categories/party/</link>
+      <link>https://cu-milab.github.io/milab/jp/categories/party/</link>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/categories/party/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/categories/party/</guid>
       <description></description>
     </item>
     <item>
       <title>Graduate</title>
-      <link>http://localhost:1313/milab/jp/categories/graduate/</link>
+      <link>https://cu-milab.github.io/milab/jp/categories/graduate/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/categories/graduate/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/categories/graduate/</guid>
       <description></description>
     </item>
     <item>
       <title>Graduation Thesis</title>
-      <link>http://localhost:1313/milab/jp/categories/graduation-thesis/</link>
+      <link>https://cu-milab.github.io/milab/jp/categories/graduation-thesis/</link>
       <pubDate>Thu, 13 Feb 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/categories/graduation-thesis/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/categories/graduation-thesis/</guid>
       <description></description>
     </item>
   </channel>

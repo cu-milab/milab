@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic Journal on 機械知能研究室</title>
-    <link>http://localhost:1313/milab/jp/categories/academic-journal/</link>
+    <link>https://cu-milab.github.io/milab/jp/categories/academic-journal/</link>
     <description>Recent content in Academic Journal on 機械知能研究室</description>
     <generator>Hugo</generator>
     <language>ja-JP</language>
     <lastBuildDate>Fri, 02 May 2025 00:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/milab/jp/categories/academic-journal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cu-milab.github.io/milab/jp/categories/academic-journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IEEE Accessに掲載</title>
-      <link>http://localhost:1313/milab/jp/news/20250502/</link>
+      <link>https://cu-milab.github.io/milab/jp/news/20250502/</link>
       <pubDate>Fri, 02 May 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/news/20250502/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/news/20250502/</guid>
       <description>&lt;p&gt;M2の柴田君の研究成果が，IEEEの国際ジャーナル「IEEE Access」に掲載されました．&#xA;本研究室としては，&lt;strong&gt;初の国際ジャーナル掲載&lt;/strong&gt;となり，これまでの取り組みが国際的に認められたことを大変喜ばしく思います．今後も質の高い研究成果を国内外に発信してまいります．&lt;/p&gt;</description>
     </item>
     <item>
       <title>精密工学会誌に掲載</title>
-      <link>http://localhost:1313/milab/jp/news/20250405/</link>
+      <link>https://cu-milab.github.io/milab/jp/news/20250405/</link>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/news/20250405/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/news/20250405/</guid>
       <description>&lt;p&gt;加藤君の研究成果が，精密工学会誌に掲載されました．本論文は，これまでの研究の集大成としてまとめられたもので，査読を経て掲載が決定しました．本研究室としては&lt;strong&gt;2回目の論文誌掲載&lt;/strong&gt;となり，継続的な研究の成果が形となったことを嬉しく思います．今後も高品質な研究を継続し，さらなる発信を目指していきます．&lt;/p&gt;</description>
     </item>
     <item>
       <title>精密工学会誌に掲載</title>
-      <link>http://localhost:1313/milab/jp/news/20250205/</link>
+      <link>https://cu-milab.github.io/milab/jp/news/20250205/</link>
       <pubDate>Wed, 05 Feb 2025 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/milab/jp/news/20250205/</guid>
+      <guid>https://cu-milab.github.io/milab/jp/news/20250205/</guid>
       <description>&lt;p&gt;高瀬君の研究成果が，精密工学会誌に掲載されました．本論文は，これまでの研究の集大成としてまとめられたもので，査読を経て掲載が決定しました．本研究室としては，記念すべき&lt;strong&gt;初めての論文誌掲載&lt;/strong&gt;となり，今後の研究活動の大きな励みとなります．今後も学術的な発信を積極的に行っていきます．&lt;/p&gt;</description>
     </item>
   </channel>
