@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cu-milab.github.io/milab/jp/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
+    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -16,10 +16,13 @@
                 />
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/categories/academic-conference/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
+    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/tags/academic-conference/</loc>
+    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/categories/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
+    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -32,13 +35,10 @@
                 />
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/news/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/tags/party/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
+    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/tags/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
+    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -49,12 +49,6 @@
                 hreflang="ja-JP"
                 href="https://cu-milab.github.io/milab/jp/tags/"
                 />
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/news/20251108/</loc>
-    <lastmod>2025-11-09T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/tags/academic-conference/</loc>
-    <lastmod>2025-09-03T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/news/20250903/</loc>
     <lastmod>2025-09-03T00:00:00+01:00</lastmod>
@@ -119,6 +113,9 @@
                 />
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/categories/party/</loc>
+    <lastmod>2025-03-21T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/tags/party/</loc>
     <lastmod>2025-03-21T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/news/20250321/</loc>
