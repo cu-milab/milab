@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cu-milab.github.io/milab/jp/</loc>
-    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/categories/</loc>
-    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -28,17 +28,17 @@
                 href="https://cu-milab.github.io/milab/jp/categories/"
                 />
   </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/categories/graduation-thesis/</loc>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/tags/graduation-thesis/</loc>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
+  </url><url>
     <loc>https://cu-milab.github.io/milab/jp/news/</loc>
-    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/categories/master-thesis/</loc>
-    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/tags/master-thesis/</loc>
-    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/tags/</loc>
-    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -49,6 +49,15 @@
                 hreflang="ja-JP"
                 href="https://cu-milab.github.io/milab/jp/tags/"
                 />
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/news/20260212/</loc>
+    <lastmod>2026-02-12T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/categories/master-thesis/</loc>
+    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://cu-milab.github.io/milab/jp/tags/master-thesis/</loc>
+    <lastmod>2026-02-06T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/news/20260206/</loc>
     <lastmod>2026-02-06T00:00:00+09:00</lastmod>
@@ -143,9 +152,6 @@
     <lastmod>2025-02-13T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/tags/graduation-research/</loc>
-    <lastmod>2025-02-13T00:00:00+01:00</lastmod>
-  </url><url>
-    <loc>https://cu-milab.github.io/milab/jp/categories/graduation-thesis/</loc>
     <lastmod>2025-02-13T00:00:00+01:00</lastmod>
   </url><url>
     <loc>https://cu-milab.github.io/milab/jp/news/20250404/</loc>
