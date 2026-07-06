@@ -155,24 +155,24 @@
 <h3 id="reinforcement-learning-with-an-image-prediction-model">Reinforcement Learning with an Image Prediction Model</h3>
 <p>We propose a reinforcement learning method based on a value function that incorporates an image prediction model. To accurately estimate the difference between the current and future values, we integrate the predicted future state’s value into the loss function of the Q-network. This allows the agent to make decisions that take future states into account, promoting long-term optimization rather than merely maximizing immediate rewards.</p>
 <div align="center"> 
-    <img src="/assets/research/002/proposed_method.png" alt="Proposed Method Flow" width="600"> <p><i>Proposed Method Flow</i></p> 
+    <img src="/milab/assets/research/002/proposed_method.png" alt="Proposed Method Flow" width="600"> <p><i>Proposed Method Flow</i></p> 
 </div>
 <h3 id="predictive-image-generation">Predictive Image Generation</h3>
 <p>For predictive image generation, we adopt Convolutional Dynamic Neural Advection (CDNA). CDNA generates a predicted image one frame ahead by using a sequence of consecutive frames and conditioning on the observed movements and postures of objects in those frames.</p>
 <div align="center"> 
-    <img src="/assets/research/002/cdna.png" alt="Overview of CDNA" width="600"> <p><i>Overview of CDNA</i></p> 
+    <img src="/milab/assets/research/002/cdna.png" alt="Overview of CDNA" width="600"> <p><i>Overview of CDNA</i></p> 
 </div>
 <h2 id="evaluation-experiments-and-results">Evaluation Experiments and Results</h2>
 <h3 id="line-tracing-task">Line-Tracing Task</h3>
 <p>To evaluate the performance of the proposed method, we conducted experiments using a line-tracing task. Specifically, we analyzed how the agent learns in environments with different numbers of prediction frames and how rewards change accordingly.</p>
 <p>The results confirmed that introducing an appropriate number of prediction frames enables the agent to achieve higher rewards in the early stages of learning. In particular, when the number of prediction frames is set appropriately, learning stability improves, and the time required to reach high rewards is reduced. However, when the number of prediction frames is excessively large, error accumulation increases, leading to lower rewards.</p>
 <div align="center"> 
-    <img src="/assets/research/002/line_trace_result_graph.png" alt="Rewards per Step in the Line-Tracing Task" width="600"> <p><i>Rewards per Step in the Line-Tracing Task</i></p> 
+    <img src="/milab/assets/research/002/line_trace_result_graph.png" alt="Rewards per Step in the Line-Tracing Task" width="600"> <p><i>Rewards per Step in the Line-Tracing Task</i></p> 
 </div>
 <h3 id="cartpole-task">CartPole Task</h3>
 <p>We also conducted similar evaluation experiments using the CartPole task. The results showed that selecting an appropriate number of prediction frames improved the rewards. However, compared to the line-tracing task, the degree of reward improvement varied, suggesting that the optimal number of prediction frames differs depending on the task.</p>
 <div align="center"> 
-    <img src="/assets/research/002/cartpole_reward_graph.png" alt="Rewards per Step in the CartPole Task" width="250"> <p><i>Rewards per Step in the CartPole Task</i></p> 
+    <img src="/milab/assets/research/002/cartpole_reward_graph.png" alt="Rewards per Step in the CartPole Task" width="250"> <p><i>Rewards per Step in the CartPole Task</i></p> 
 </div>
 <h2 id="related-publications">Related Publications</h2>
 <p>— Yoshiki Kato, Tomohiro Nishikata and Yuji Yamauchi, “Incorporating Image Prediction Model in Value Function for Deep Reinforcement Learning”, Journal of the Japan Society for Precision Engineering, vol. 91, no.4, pp.518-525, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/4/91_518/_article/-char/ja">link</a></p> </div> </article>  </main> <footer class="border-t border-gray-100 py-8 mt-12 bg-gray-50"> <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm"> <p> <a href="https://github.com/fjd2004711/scholar-lite" target="_blank" class="hover:text-gray-700 inline-flex items-center gap-1 transition-colors">

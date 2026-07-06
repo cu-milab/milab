@@ -165,7 +165,7 @@ We also validated its practicality on an embedded board.</p>
 <li>Estimate position based on bounding box and predicted pose</li>
 </ol>
 <div align="center"> 
-    <img src="/assets/research/004/propose_asano.png" alt="Proposed Method Flow" width="600"> <p><i>Flow of the proposed method</i></p> 
+    <img src="/milab/assets/research/004/propose_asano.png" alt="Proposed Method Flow" width="600"> <p><i>Flow of the proposed method</i></p> 
 </div>
 <h3 id="introduction-of-nanodet-plus">Introduction of NanoDet-Plus</h3>
 <p>The object detector was changed from the conventional Single Shot Multibox Detector (SSD) to NanoDet-Plus.<br>
@@ -182,7 +182,7 @@ The AVAE’s encoder and decoder are trained to minimize the reconstruction erro
 while the encoder and MLP are trained to minimize pose estimation error.<br>
 Repeating these steps enables the encoder to output latent variables that contain only essential information for pose estimation while excluding noise and deformation.</p>
 <div align="center"> 
-    <img src="/assets/research/004/train_asano.png" alt="Alternating Optimization" width="400"> <p><i>Alternating optimization of two models</i></p> 
+    <img src="/milab/assets/research/004/train_asano.png" alt="Alternating Optimization" width="400"> <p><i>Alternating optimization of two models</i></p> 
 </div>
 <h3 id="experiments-and-results">Experiments and Results</h3>
 <p>We compare our method with a conventional method using SSD + AAE + Nearest Neighbor for pose estimation.<br>
@@ -230,7 +230,7 @@ Moreover, processing time per frame improved by 99.3%.</p>
 <p>The following shows the pose estimation results for deformed AR markers in real environments.<br>
 The color of the wireframe represents the marker ID, and its size and orientation represent the estimated position and pose.</p>
 <video controls width="640" height="360">
-  <source src="/assets/research/004/movie_asano.mp4" type="video/mp4">
+  <source src="/milab/assets/research/004/movie_asano.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <h2 id="related-publications">Related Publications</h2> </div> </article>  </main> <footer class="border-t border-gray-100 py-8 mt-12 bg-gray-50"> <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm"> <p> <a href="https://github.com/fjd2004711/scholar-lite" target="_blank" class="hover:text-gray-700 inline-flex items-center gap-1 transition-colors">

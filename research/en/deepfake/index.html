@@ -156,13 +156,13 @@
 <p>Conventional Vision Transformers (ViTs) excel at capturing the overall structure of images. However, they struggle to extract high-frequency components (such as edges and noise) effectively, which makes their performance inferior to CNNs in Deepfake detection.</p>
 <p>To address this issue, our study adopts Wave-ViT, which incorporates wavelet transform capable of decomposing images into frequency components. This allows the model to effectively capture high-frequency forgery artifacts commonly found in Deepfake images.</p>
 <div align="center"> 
-    <img src="/assets/research/001/proposed_method.png" alt="Proposed Method Workflow" width="600"> <p><i>Proposed Method Workflow</i></p> 
+    <img src="/milab/assets/research/001/proposed_method.png" alt="Proposed Method Workflow" width="600"> <p><i>Proposed Method Workflow</i></p> 
 </div>
 <h3 id="introduction-of-self-supervised-learning-simclr">Introduction of Self-Supervised Learning (SimCLR)</h3>
 <p>To learn fine-grained differences between Deepfake and natural images, we integrate SimCLR, a self-supervised learning technique.</p>
 <p>In this learning approach, different augmentations are applied to the same image to create a “positive pair,” while unrelated images are treated as “negative pairs.” This enables effective feature extraction without using labeled data, enhancing the model’s ability to distinguish Deepfakes.</p>
 <div align="center"> 
-    <img src="/assets/research/001/SimCLR.png" alt="Self-Supervised Learning" width="400"> <p><i>Proposed Method Workflow</i></p> 
+    <img src="/milab/assets/research/001/SimCLR.png" alt="Self-Supervised Learning" width="400"> <p><i>Proposed Method Workflow</i></p> 
 </div>
 <h3 id="data-augmentation-using-self-blended-images-sbis">Data Augmentation Using Self-Blended Images (SBIs)</h3>
 <p>To expand the training dataset, we generate pseudo-Deepfake images using a method called “Self-Blended Images (SBIs).” This allows the model to learn from a more diverse range of forgery artifacts, improving generalization performance.</p>
@@ -203,7 +203,7 @@
 <h3 id="attention-to-forgery-artifacts">Attention to Forgery Artifacts</h3>
 <p>Visualization of attention maps confirms that our proposed method effectively focuses on key forgery artifacts, such as boundaries in Deepfake images, where tampering signs are often present.</p>
 <div align="center"> 
-    <img src="/assets/research/001/attention_map.png" alt="Self-Supervised Learning" width="600"> <p><i>Visualization of Attention Maps</i></p> 
+    <img src="/milab/assets/research/001/attention_map.png" alt="Self-Supervised Learning" width="600"> <p><i>Visualization of Attention Maps</i></p> 
 </div>
 <h2 id="related-publications">Related Publications</h2>
 <p>— Toshiki Takase, Yuji Yamauchi, “Enhancing Deepfake Detection Accuracy with Wavelet Vision Transformer and Self-Supervised Learning,” Journal of Precision Engineering, vol. 91, no.2, pp.156-162, 2025. <a href="https://www.jstage.jst.go.jp/article/jjspe/91/2/91_156/_article/-char/en">link</a></p> </div> </article>  </main> <footer class="border-t border-gray-100 py-8 mt-12 bg-gray-50"> <div class="max-w-7xl mx-auto px-4 text-center text-gray-500 text-sm"> <p> <a href="https://github.com/fjd2004711/scholar-lite" target="_blank" class="hover:text-gray-700 inline-flex items-center gap-1 transition-colors">
